@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: remplacez cet élément par vos propres données XML. -->
+  <Asset Type="XMLObject.Langues">
+    <Values>
+      <Item>
+        <ID>String2</ID>
+        <caca>With the square</caca>
+      </Item>
+      <Item>
+        <ID>String2_bis</ID>
+        <caca>corresponding</caca>
+      </Item>
+      <Item>
+        <ID>String1</ID>
+        <caca>Destroy squares</caca>
+      </Item>
+      <Item>
+        <ID>String1_bis</ID>
+        <caca>before the bottom</caca>
+      </Item>
+      <Item>
+        <ID>String1_ter</ID>
+        <caca>is full</caca>
+      </Item>
+      <Item>
+        <ID>Suivant</ID>
+        <caca>Tap for continue</caca>
+      </Item>
+      <Item>
+        <ID>NextLevelDebloque</ID>
+        <caca>Goal achieved</caca>
+      </Item>
+      <Item>
+        <ID>NextLevel</ID>
+        <caca>Next Level</caca>
+      </Item>
+      <Item>
+        <ID>Objectif</ID>
+        <caca>Goal</caca>
+      </Item>
+      <Item>
+        <ID>Difficulte</ID>
+        <caca>Difficulty</caca>
+      </Item>
+      <Item>
+        <ID>Locked</ID>
+        <caca>Locked</caca>
+      </Item>
+      <Item>
+        <ID>NewHighScore</ID>
+        <caca>New</caca>
+      </Item>
+      <Item>
+        <ID>MeilleurTemps</ID>
+        <caca>Best</caca>
+      </Item>
+      <Item>
+        <ID>Menu</ID>
+        <caca>Menu</caca>
+      </Item>
+      <Item>
+        <ID>Retry</ID>
+        <caca>Retry</caca>
+      </Item>
+      <Item>
+        <ID>Score</ID>
+        <caca>Score</caca>
+      </Item>
+      <Item>
+        <ID>Level</ID>
+        <caca>Level</caca>
+      </Item>
+      <Item>
+        <ID>GameOver</ID>
+        <caca>Game Over</caca>
+      </Item>
+      <Item>
+        <ID>Temps</ID>
+        <caca>Time</caca>
+      </Item>
+      <Item>
+        <ID>Reprendre</ID>
+        <caca>Resume</caca>
+      </Item>
+      <Item>
+        <ID>Retour</ID>
+        <caca>Back</caca>
+      </Item>
+      <Item>
+        <ID>Jouer</ID>
+        <caca>Play</caca>
+      </Item>
+      <Item>
+        <ID>Quitter</ID>
+        <caca>Quit</caca>
+      </Item>
+    </Values>
+  </Asset>
+</XnaContent>

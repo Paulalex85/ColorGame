@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{748A7F4E-12FD-4A2C-8642-5C7F91CBA8E8}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">Windows Phone</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TechColor</RootNamespace>
+    <AssemblyName>TechColor</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows Phone</XnaPlatform>
+    <XnaProfile>Reach</XnaProfile>
+    <XnaCrossPlatformGroupID>fa0ba88e-94c5-44a8-a1bf-554788778dd3</XnaCrossPlatformGroupID>
+    <XnaOutputType>Game</XnaOutputType>
+    <XnaRefreshLevel>1</XnaRefreshLevel>
+    <WPTombstoneEnabled>false</WPTombstoneEnabled>
+    <XapFilename>$(AssemblyName).xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <XnaWindowsPhoneManifestTemplate>Properties\WMAppManifest.xml</XnaWindowsPhoneManifestTemplate>
+    <TileImage>Background.png</TileImage>
+    <TileTitle>TechColor</TileTitle>
+    <SupportedCultures>en-US;fr-FR</SupportedCultures>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <Thumbnail>Logo_62.png</Thumbnail>
+    <GameStartupType>
+    </GameStartupType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Windows Phone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Windows Phone\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS_PHONE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Windows Phone' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Windows Phone\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS_PHONE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Advertising.Mobile, Version=6.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Advertising.Mobile.Xna, Version=6.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Phone, Version=7.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework" />
+    <Reference Include="Microsoft.Xna.Framework.Game" />
+    <Reference Include="Microsoft.Xna.Framework.Graphics" />
+    <Reference Include="Microsoft.Xna.Framework.GamerServices" />
+    <Reference Include="Microsoft.Xna.Framework.Input.Touch" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Windows, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Xml.Serialization, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DogeTools\Detection_collision.cs" />
+    <Compile Include="DogeTools\Evenement.cs" />
+    <Compile Include="DogeTools\Particule_Carre.cs" />
+    <Compile Include="DogeTools\Particule_Mini.cs" />
+    <Compile Include="DogeTools\Song_Management.cs" />
+    <Compile Include="DogeTools\Timer.cs" />
+    <Compile Include="DogeTools\XML_Serializer.cs" />
+    <Compile Include="GameEngine\Background_Ingame.cs" />
+    <Compile Include="GameEngine\Element\Alterne_Couleur.cs" />
+    <Compile Include="GameEngine\Element\Alterne_Couleur_Barre_Carre.cs" />
+    <Compile Include="GameEngine\Element\Alterne_Deplacement_H_et_V.cs" />
+    <Compile Include="GameEngine\Element\Alterne_Element.cs" />
+    <Compile Include="GameEngine\Element\Cercle.cs" />
+    <Compile Include="GameEngine\Element\Deplacement_Aleatoire.cs" />
+    <Compile Include="GameEngine\Element\Deplacement_Diagonale.cs" />
+    <Compile Include="GameEngine\Element\Deplacement_Horizontal.cs" />
+    <Compile Include="GameEngine\Element\Deplacement_Vertical.cs" />
+    <Compile Include="GameEngine\Element\Element.cs" />
+    <Compile Include="GameEngine\Element\ElementManage.cs" />
+    <Compile Include="GameEngine\Element\Nuance.cs" />
+    <Compile Include="GameEngine\Element\Objectif_Barre_Remelanger.cs" />
+    <Compile Include="GameEngine\Element\Objectif_Barre_Inverser.cs" />
+    <Compile Include="GameEngine\Element\Opacity.cs" />
+    <Compile Include="GameEngine\Fin_Partie.cs" />
+    <Compile Include="GameEngine\Pause.cs" />
+    <Compile Include="GameEngine\Element\Rotation.cs" />
+    <Compile Include="GameEngine\Element_mode.cs" />
+    <Compile Include="GameEngine\Tuto.cs" />
+    <Compile Include="MenuScreenClass\BackgroundMenuScreen.cs" />
+    <Compile Include="GameEngine\Carre.cs" />
+    <Compile Include="GameEngine\Objectif_ligne.cs" />
+    <Compile Include="GameEngine\Objectif_Carre_Ligne.cs" />
+    <Compile Include="MenuScreenClass\LevelScreen.cs" />
+    <Compile Include="MenuScreenClass\MainMenuScreen.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScreenManager\Button.cs" />
+    <Compile Include="ScreenManager\GameScreen.cs" />
+    <Compile Include="ScreenManager\InputState.cs" />
+    <Compile Include="DogeTools\Languages.cs" />
+    <Compile Include="ScreenManager\MenuEntry.cs" />
+    <Compile Include="ScreenManager\MenuScreen.cs" />
+    <Compile Include="ScreenManager\PhoneMenuScreen.cs" />
+    <Compile Include="ScreenManager\PlayerIndexEventArgs.cs" />
+    <Compile Include="ScreenManager\ScreenManager.cs" />
+    <Compile Include="ScreenManager\TransitionDebutScreen.cs" />
+    <Compile Include="ScreenManager\TransitionScreen.cs" />
+    <None Include="Properties\AppManifest.xml">
+      <XnaPlatformSpecific>true</XnaPlatformSpecific>
+    </None>
+    <None Include="Properties\WMAppManifest.xml">
+      <XnaPlatformSpecific>true</XnaPlatformSpecific>
+    </None>
+    <Compile Include="Program.cs" />
+    <Compile Include="Game1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\XMLObject\XMLObject.csproj">
+      <Project>{19BB0FA6-C933-42C4-8D43-6DDC09C831AA}</Project>
+      <Name>XMLObject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Couleur_testContent\Couleur_testContent.contentproj">
+      <Name>Couleur_testContent</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Background.png" />
+    <Content Include="Logo_62.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>

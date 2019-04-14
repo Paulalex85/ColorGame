@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010 Express for Windows Phone
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Couleur_test", "Couleur_test\Couleur_test\Couleur_test.csproj", "{748A7F4E-12FD-4A2C-8642-5C7F91CBA8E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Couleur_testContent", "Couleur_test\Couleur_testContent\Couleur_testContent.contentproj", "{8AC63407-7924-4A15-9B2E-33C19E3CFF26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLObject", "XMLObject\XMLObject.csproj", "{19BB0FA6-C933-42C4-8D43-6DDC09C831AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Windows Phone = Debug|Windows Phone
+		Release|Windows Phone = Release|Windows Phone
+		Trail|Windows Phone = Trail|Windows Phone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{748A7F4E-12FD-4A2C-8642-5C7F91CBA8E8}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{748A7F4E-12FD-4A2C-8642-5C7F91CBA8E8}.Debug|Windows Phone.Build.0 = Debug|Windows Phone
+		{748A7F4E-12FD-4A2C-8642-5C7F91CBA8E8}.Debug|Windows Phone.Deploy.0 = Debug|Windows Phone
+		{748A7F4E-12FD-4A2C-8642-5C7F91CBA8E8}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{748A7F4E-12FD-4A2C-8642-5C7F91CBA8E8}.Release|Windows Phone.Build.0 = Release|Windows Phone
+		{748A7F4E-12FD-4A2C-8642-5C7F91CBA8E8}.Release|Windows Phone.Deploy.0 = Release|Windows Phone
+		{748A7F4E-12FD-4A2C-8642-5C7F91CBA8E8}.Trail|Windows Phone.ActiveCfg = Release|Windows Phone
+		{748A7F4E-12FD-4A2C-8642-5C7F91CBA8E8}.Trail|Windows Phone.Build.0 = Release|Windows Phone
+		{748A7F4E-12FD-4A2C-8642-5C7F91CBA8E8}.Trail|Windows Phone.Deploy.0 = Release|Windows Phone
+		{8AC63407-7924-4A15-9B2E-33C19E3CFF26}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{8AC63407-7924-4A15-9B2E-33C19E3CFF26}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{8AC63407-7924-4A15-9B2E-33C19E3CFF26}.Trail|Windows Phone.ActiveCfg = Release|Windows Phone
+		{19BB0FA6-C933-42C4-8D43-6DDC09C831AA}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{19BB0FA6-C933-42C4-8D43-6DDC09C831AA}.Debug|Windows Phone.Build.0 = Debug|Windows Phone
+		{19BB0FA6-C933-42C4-8D43-6DDC09C831AA}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{19BB0FA6-C933-42C4-8D43-6DDC09C831AA}.Release|Windows Phone.Build.0 = Release|Windows Phone
+		{19BB0FA6-C933-42C4-8D43-6DDC09C831AA}.Trail|Windows Phone.ActiveCfg = Trail|Windows Phone
+		{19BB0FA6-C933-42C4-8D43-6DDC09C831AA}.Trail|Windows Phone.Build.0 = Trail|Windows Phone
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
